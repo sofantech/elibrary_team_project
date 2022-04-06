@@ -193,3 +193,117 @@ nav ul li a img {
 .add:hover {
     cursor: pointer;
 }
+
+
+/* end header */
+
+
+/***********************/
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.slider-container {
+    background-color: #dddddd;
+    width: 94%!important;
+    height: 69% !important;
+    transform: translate(-4%, 5%);
+    border-radius: 5px;
+    padding: 26px;
+    filter: drop-shadow(2px 1px 1px black);
+}
+
+.img-container-slide {
+    filter: drop-shadow(2px 4px 2px #ccc);
+    background-color: #fff;
+    height: 270px;
+    width: 170px;
+    transform: matrix(1, -0.2, 0, 1, 2, 26);
+    /* transform: rotate(
+206deg
+);*/
+}
+
+.img-cont-slid {
+    position: relative;
+}
+
+.part1-slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-cont-slid img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.img-cont-slid .active {
+    display: block;
+}
+
+.btn-slid-container {
+    width: 277px;
+    /* margin: 50% auto; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.btn-slid-container button {
+    color: #dddddd;
+    outline: none;
+    border: none;
+    height: 14px;
+    width: 13px;
+}
+
+.btn-slid-container button:nth-child(1) {
+    background-color: #9e9e9eb8;
+}
+
+.active {
+    display: block;
+}
+
+
+/******العروض التوضيحية النشرة*****/
+
+.slid-exp-container {
+    display: grid;
+    row-gap: 14px;
+}
+
+.slid-exp {
+    color: darkblue;
+    font-size: 14px;
+    display: grid;
+    row-gap: 8px;
+}
+
+.slid-exp button {
+    width: 71px;
+    height: 25px;
+    border-radius: 16%;
+    color: red;
+    background: yellow;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.slid-exp button:active {
+    color: yellow;
+    background: red;
+}

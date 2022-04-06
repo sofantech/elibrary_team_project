@@ -1,0 +1,3 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="icon icon--default list__icon ar-flip" width="50"  height="50" ><defs><symbol viewBox="0 0 50 50" id="sign-out" xmlns="http://www.w3.org/2000/svg"><path d="M25 48c9.7 0 18.1-6.1 21.4-14.6.2-.5 0-1.1-.5-1.3-.5-.2-1.1 0-1.3.5v.1C41.5 40.5 33.9 46 25 46 13.4 46 4 36.6 4 25S13.4 4 25 4c8.9 0 16.5 5.5 19.6 13.4.2.5.7.8 1.3.6.5-.2.8-.7.6-1.3v-.1C43.1 8.1 34.7 2 25 2 12.3 2 2 12.3 2 25s10.3 23 23 23zm-1-14c.6 0 1-.4 1-1 0-.3-.1-.5-.3-.7L18.4 26H47c.6 0 1-.4 1-1s-.4-1-1-1H18.4l6.3-6.3c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0l-8 8c-.4.4-.4 1 0 1.4l8 8c.2.2.4.3.7.3z"></path></symbol></defs>
+<use xlink:href="#sign-out" fill="#F70008"></use>
+</svg>
